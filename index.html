@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- 🔒 PROPRIETARY SECURITY CORE BY MD IBRAHIM HOSSAIN | PERSONAL TECHNICAL PORTFOLIO -->
+<!-- 🔒 UNLOCKED ARCHITECTURE BY MD IBRAHIM HOSSAIN | PERSONAL TECHNICAL PORTFOLIO -->
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5.0,viewport-fit=cover">
 <meta name="theme-color" content="#020617">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <title>Ibrahim Hossain | Principal Cybersecurity Architect</title>
-<meta name="description" content="Senior / Principal-Level Security Architecture & Engineering Portfolio. Specializing in DevSecOps, GRC, DFIR, and Enterprise Cloud Security.">
+<meta name="description" content="Senior / Principal-Level Security Architecture & Engineering Portfolio. Specializing in DevSecOps, GRC, DFIR, and Enterprise Data Loss Prevention (DLP).">
 <meta name="keywords" content="Cybersecurity Architect, Systems Security Engineer, DevSecOps, GRC, DLP, MD Ibrahim Hossain">
 <link rel="canonical" href="https://ibrahim-secops.github.io/">
 
-<!-- Open Graph Meta Tags -->
+<!-- Open Graph / Social Media Meta Tags -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ibrahim-secops.github.io/">
 <meta property="og:title" content="Ibrahim Hossain | Principal Cybersecurity Architect">
 <meta property="og:description" content="Enterprise Cybersecurity & Security Engineering Portfolio. Defending enterprise networks, managing vulnerabilities, and automating DevSecOps.">
-<meta property="og:image" content="https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/banner.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/logo-main.png">
+<meta name="twitter:card" content="summary_large_image">
 
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://unpkg.com/lucide@latest"></script>
@@ -30,7 +31,23 @@
   "name": "MD Ibrahim Hossain",
   "jobTitle": "Principal Cybersecurity Architect",
   "url": "https://ibrahim-secops.github.io/",
-  "image": "https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/banner.png"
+  "image": "https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/logo-main.png"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does your proprietary CYBER-SHIELD engine protect enterprise software pipelines?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The CYBER-SHIELD engine is an automated security utility that integrates directly into GitHub Actions CI/CD pipelines, orchestrating Static Application Security Testing (SAST), dependency scanning, and container vulnerability audits to minimize attack surfaces and validate secure deployments."
+      }
+    }
+  ]
 }
 </script>
 
@@ -51,21 +68,24 @@ body{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-se
 <header class="fixed w-full z-50 bg-[#020617]/90 backdrop-blur-xl border-b border-white/5">
 <div class="container mx-auto px-6 py-4 flex flex-wrap justify-between items-center">
 <div class="flex items-center gap-3 cursor-pointer" onclick="window.scrollTo(0,0)" aria-label="Go to top">
-<img src="https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/logo-flat.png" alt="Cyber Shield" class="w-8 h-8 object-contain rounded-lg border border-cyan-500/30">
+<img src="https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/logo-main.png" alt="Cyber Shield" class="w-10 h-10 object-contain rounded-lg border border-cyan-500/30 bg-slate-900">
 <div class="flex flex-col text-left leading-none">
 <span class="text-base font-black tracking-tight text-white uppercase" style="font-family:'Montserrat';">Ibrahim Hossain</span>
 <span class="text-[8px] font-bold text-cyan-400 tracking-[0.22em] uppercase mt-1">Systems & Security</span>
 </div>
 </div>
 
+<!-- Mobile Menu Button -->
 <button id="menu-btn" class="md:hidden text-slate-400 hover:text-white focus:outline-none" aria-label="Toggle navigation">
 <i data-lucide="menu" class="w-6 h-6"></i>
 </button>
 
+<!-- Navigation Links -->
 <nav id="mobile-menu" class="w-full md:w-auto mt-4 md:mt-0 flex-col md:flex-row flex items-center gap-6 hidden md:flex opacity-0 md:opacity-100 max-h-0 md:max-h-full overflow-hidden md:overflow-visible">
-<a href="#pillars" class="text-xs font-bold text-slate-400 hover:text-white uppercase tracking-widest transition-colors">The 5 Pillars</a>
-<a href="#services" class="text-xs font-bold text-slate-400 hover:text-white uppercase tracking-widest transition-colors">SLA Matrix</a>
-<a href="mailto:ibrahim.secops.pro@gmail.com" class="bg-white text-black px-5 py-2 rounded-full text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 hover:text-white transition-all w-full md:w-auto text-center">Contact Me</a>
+<a href="#pillars" class="text-xs font-bold text-slate-400 hover:text-white uppercase tracking-widest transition-colors" aria-label="SLA Matrix">The 5 Pillars</a>
+<a href="#services" class="text-xs font-bold text-slate-400 hover:text-white uppercase tracking-widest transition-colors" aria-label="SLA Matrix">SLA Matrix</a>
+<a href="#faq" class="text-xs font-bold text-slate-400 hover:text-white uppercase tracking-widest transition-colors" aria-label="FAQ">FAQ</a>
+<a href="mailto:ibrahim.secops.pro@gmail.com" class="bg-white text-black px-5 py-2 rounded-full text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 hover:text-white transition-all w-full md:w-auto text-center" aria-label="Contact Me">Contact Me</a>
 </nav>
 </div>
 </header>
@@ -86,14 +106,15 @@ body{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-se
 </a>
 </div>
 </div>
-<div class="relative mx-auto lg:mx-0 w-full max-w-lg lg:max-w-xl">
-<div class="rounded-3xl overflow-hidden shadow-2xl border border-white/10 hover:scale-[1.01] transition-all duration-500 shadow-[0_0_30px_rgba(0,242,255,0.08)]">
-<img src="https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/banner.png" alt="MD Ibrahim Hossain Master Banner" class="w-full h-auto object-contain">
+<div class="relative mx-auto lg:mx-0 w-full max-w-sm lg:max-w-md">
+<!-- INJECTED NEW MASTER LOGO -->
+<div class="rounded-full overflow-hidden shadow-2xl border-4 border-cyan-500/30 hover:scale-[1.02] transition-all duration-500 shadow-[0_0_40px_rgba(0,242,255,0.15)] bg-slate-900 p-2">
+<img src="https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/logo-main.png" alt="MD Ibrahim Hossain Master Shield" class="w-full h-auto object-contain rounded-full">
 </div>
 </div>
 </section>
 
-<!-- 🌐 PROPRIETARY TECHNOLOGY SHOWCASE -->
+<!-- 🌐 PROPRIETARY TECHNOLOGY SHOWCASE: THE CYBER-SHIELD v12.0 PRO ENGINE -->
 <section class="glass-panel p-6 md:p-8 border-rose-500/20 shadow-2xl shadow-rose-500/5">
 <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
 <div class="space-y-2">
@@ -112,23 +133,23 @@ body{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-se
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
     <div onclick="document.getElementById('dom-grc').scrollIntoView()" class="bento-item border border-rose-500/30 hover:border-rose-400 hover:shadow-[0_0_30px_rgba(244,63,94,0.15)] flex flex-col items-center text-center">
-        <i data-lucide="shield-check" class="text-rose-400 w-8 h-8 mb-4"></i>
+        <img src="https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/pillar-icon-01.png" class="w-14 h-14 mb-4 object-contain" alt="GRC">
         <h4 class="text-sm font-black text-white uppercase">GRC & Resilience</h4>
     </div>
     <div onclick="document.getElementById('dom-data').scrollIntoView()" class="bento-item border border-emerald-500/30 hover:border-emerald-400 hover:shadow-[0_0_30px_rgba(16,185,129,0.15)] flex flex-col items-center text-center">
-        <i data-lucide="database" class="text-emerald-400 w-8 h-8 mb-4"></i>
+        <img src="https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/pillar-icon-02.png" class="w-14 h-14 mb-4 object-contain" alt="Data Security">
         <h4 class="text-sm font-black text-white uppercase">Data & Identity</h4>
     </div>
     <div onclick="document.getElementById('dom-app').scrollIntoView()" class="bento-item border border-cyan-500/30 hover:border-cyan-400 hover:shadow-[0_0_30px_rgba(0,242,255,0.15)] flex flex-col items-center text-center">
-        <i data-lucide="terminal" class="text-cyan-400 w-8 h-8 mb-4"></i>
+        <img src="https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/pillar-icon-03.png" class="w-14 h-14 mb-4 object-contain" alt="DevSecOps">
         <h4 class="text-sm font-black text-white uppercase">AppSec & DevSecOps</h4>
     </div>
     <div onclick="document.getElementById('dom-cloud').scrollIntoView()" class="bento-item border border-purple-500/30 hover:border-purple-400 hover:shadow-[0_0_30px_rgba(168,85,247,0.15)] flex flex-col items-center text-center">
-        <i data-lucide="cloud" class="text-purple-400 w-8 h-8 mb-4"></i>
+        <img src="https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/pillar-icon-04.png" class="w-14 h-14 mb-4 object-contain" alt="Cloud Security">
         <h4 class="text-sm font-black text-white uppercase">Cloud & AI Security</h4>
     </div>
     <div onclick="document.getElementById('dom-soc').scrollIntoView()" class="bento-item border border-blue-500/30 hover:border-blue-400 hover:shadow-[0_0_30px_rgba(59,130,246,0.15)] flex flex-col items-center text-center">
-        <i data-lucide="activity" class="text-blue-400 w-8 h-8 mb-4"></i>
+        <img src="https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/pillar-icon-05.png" class="w-14 h-14 mb-4 object-contain" alt="SOC">
         <h4 class="text-sm font-black text-white uppercase">SOC & Forensics</h4>
     </div>
 </div>
@@ -144,21 +165,6 @@ body{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-se
 <div id="dynamic-services-grid" class="space-y-20"></div>
 </section>
 
-<!-- INTERACTIVE FAQ SECTION -->
-<section id="faq" class="glass-card p-6 md:p-8 border-white/5 space-y-6">
-<h3 class="text-white font-black uppercase text-xs tracking-widest border-l-4 border-rose-500 pl-3">Frequently Asked Questions</h3>
-<div class="space-y-4 text-xs text-left">
-<div class="p-4 bg-slate-900/40 border border-white/5 rounded-xl">
-<p class="text-white font-bold mb-2">Q: How does your proprietary CYBER-SHIELD framework protect enterprise software pipelines?</p>
-<p class="text-slate-400 leading-relaxed">A: The CYBER-SHIELD framework is an automated security utility that integrates directly into GitHub Actions CI/CD pipelines, orchestrating Static Application Security Testing (SAST), dependency scanning, and container vulnerability audits to minimize attack surfaces and validate secure deployments.</p>
-</div>
-<div class="p-4 bg-slate-900/40 border border-white/5 rounded-xl">
-<p class="text-white font-bold mb-2">Q: What is your approach to securing third-party dependencies in production environments?</p>
-<p class="text-slate-400 leading-relaxed">A: I utilize automated dependency scanning coupled with continuous SBOM (Software Bill of Materials) audits. This allows for proactive tracking of vulnerable libraries, aligning enterprise products directly with ISO 27001 and PCI DSS risk-management standards.</p>
-</div>
-</div>
-</section>
-
 </main>
 
 <footer class="bg-slate-950 border-t border-white/5 py-12 text-center">
@@ -168,31 +174,31 @@ body{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-se
 
 <script>
 const serviceDatabase=[
-{domain:"Pillar 01: Enterprise GRC & Cyber Resilience",id:"dom-grc",color:"rose",img:"https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/pillar-01.png",items:[
+{domain:"Pillar 01: Enterprise GRC & Cyber Resilience",id:"dom-grc",iconNum:"01",color:"rose",items:[
 {code:"SLA-04",title:"NIST CSF & ISO 27001 Compliance Audit",desc:"NIST CSF, ISO 27001, and NIS2 compliance audits. Gap analysis & control validation.",scope:"NIST CSF assessment, ISO 27001 auditing, gap analysis, risk-based compliance, maturity evaluation.",deliv:"Control Validation Document, Compliance Gap Analysis, Audit Report."},
 {code:"SLA-18",title:"Cybersecurity Governance & Architecture",desc:"Enterprise cybersecurity governance, policy architecture, and security maturity assessment.",scope:"Risk acceptance framework, KPI/KRI dashboard, program architecture, executive reporting.",deliv:"Enterprise Security Framework, Cyber Risk Register, 12-Month Security Roadmap."},
 {code:"SLA-19",title:"Third-Party & Vendor Cyber Risk Assessment",desc:"SaaS security review, supplier cyber-risk assessment, and API integration security audits.",scope:"Third-party data-access, vendor access-control, supply-chain risk assessment.",deliv:"Vendor Cyber Risk Score, Third-Party Security Assessment, Supplier Security Matrix."},
 {code:"SLA-20",title:"Cyber Resilience & Disaster Recovery",desc:"Immutable backup architecture, ransomware resilience, and disaster recovery testing.",scope:"Business Impact Analysis, immutable backup setups, recovery testing, RTO/RPO validation.",deliv:"Cyber Resilience Architecture, BCP/DR Assessment, Ransomware Recovery Plan."}
 ]},
-{domain:"Pillar 02: Data Security & Identity Access",id:"dom-data",color:"emerald",img:"https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/pillar-02.png",items:[
+{domain:"Pillar 02: Data Security & Identity Access",id:"dom-data",iconNum:"02",color:"emerald",items:[
 {code:"SLA-01",title:"Enterprise DLP & Secure Database Audit",desc:"PII and sensitive data discovery, database security assessment, and column-level encryption.",scope:"Automated data classification, data masking, database monitoring, exfiltration detection.",deliv:"Data Classification Matrix, Security Architecture, Encryption Protocol, Audit Report."},
 {code:"SLA-08",title:"Zero-Trust Identity Architecture",desc:"Zero Trust architecture, Privileged Access Management, and multi-factor authentication.",scope:"Identity-first security, least-privilege architecture, conditional access, passwordless MFA.",deliv:"Zero Trust Architecture Map, IAM Control Matrix, PAM Architecture."},
 {code:"SLA-16",title:"Identity Threat Detection & Privileged Access",desc:"Identity attack detection, privilege escalation analysis, and OAuth/OIDC security.",scope:"Privileged account assessment, service-account security, SSO security, attack-path mapping.",deliv:"Identity Attack Path Map, Privileged Access Risk Report, IAM Hardening Matrix."},
 {code:"SLA-17",title:"Attack Surface & Exposure Management",desc:"External/internal attack surface discovery, shadow IT detection, and continuous monitoring.",scope:"Unknown asset discovery, exposed service discovery, cloud asset exposure.",deliv:"Enterprise Attack Surface Inventory, Exposure Risk Score, Critical Exposure Report."}
 ]},
-{domain:"Pillar 03: AppSec & DevSecOps",id:"dom-app",color:"cyan",img:"https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/pillar-03.png",items:[
+{domain:"Pillar 03: AppSec & DevSecOps",id:"dom-app",iconNum:"03",color:"cyan",items:[
 {code:"SLA-03",title:"DevSecOps & Secure CI/CD Pipelines",desc:"Integrating automated security gates, SAST, DAST, and container security into build pipelines.",scope:"SAST/DAST scanning, secrets scanning, IaC scanning, artifact signing.",deliv:"Security Gate Scripts, Secure CI/CD Pipeline Architecture, Container Checklist."},
 {code:"SLA-05",title:"OWASP Web & API Security Assessment",desc:"OWASP Top 10 auditing, web application testing, and API authentication validation.",scope:"Injection vulnerability assessment, XSS/SQLi checks, business-logic testing.",deliv:"Web Application Security Report, API Threat Model, Technical Remediation Guide."},
 {code:"SLA-09",title:"Software Supply Chain Security & SBOM",desc:"Third-party dependency assessment, SBOM auditing, and malicious package detection.",scope:"Vulnerability analysis, dependency confusion checks, code-signing.",deliv:"SBOM Audit Log, Dependency Risk Register, Supply Chain Hardening Guide."},
 {code:"SLA-12",title:"Red Team Adversary Simulation",desc:"Authorized adversary simulation, Active Directory assessment, and attack-path validation.",scope:"External/internal attack simulation, privilege escalation, lateral movement.",deliv:"Attack Path Analysis, Red Team Assessment Report, Technical Remediation Guide."}
 ]},
-{domain:"Pillar 04: Cloud, Container & AI Security",id:"dom-cloud",color:"purple",img:"https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/pillar-04.png",items:[
+{domain:"Pillar 04: Cloud, Container & AI Security",id:"dom-cloud",iconNum:"04",color:"purple",items:[
 {code:"SLA-07",title:"AI Security, LLM Security & AI Governance",desc:"AI security monitoring, prompt injection defense, and RAG/Vector database security.",scope:"LLM security assessment, AI data leakage prevention, model poisoning assessment.",deliv:"AI Security Architecture, Prompt Injection Defense, AI Governance Guide."},
 {code:"SLA-10",title:"Cloud Security Posture Management (CSPM)",desc:"AWS, Azure, and GCP security assessment, cloud IAM review, and CIS Benchmark validation.",scope:"Public storage detection, cloud misconfigurations, orphaned role detection.",deliv:"CSPM Security Dashboard Report, Multi-Cloud Assessment, Cloud Hardening Roadmap."},
 {code:"SLA-13",title:"Enterprise Security Architecture & Threat Modeling",desc:"Security-by-design, trust boundary analysis, and threat modeling across networks and cloud.",scope:"Enterprise, App, Cloud and Data Security Architecture, trust boundary maps.",deliv:"Enterprise Security Architecture Diagram, Threat Model, Security Roadmap."},
 {code:"SLA-15",title:"Cloud-Native, Container & Kubernetes Security",desc:"Kubernetes security assessment, container RBAC, and cloud-native threat modeling.",scope:"Network Policy validation, admission control, secrets management, workload identity.",deliv:"Kubernetes Security Assessment, Container Security Baseline, Kubernetes Hardening Guide."}
 ]},
-{domain:"Pillar 05: SOC, SIEM & Incident Response",id:"dom-soc",color:"blue",img:"https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/pillar-05.png",items:[
+{domain:"Pillar 05: SOC, SIEM & Incident Response",id:"dom-soc",iconNum:"05",color:"blue",items:[
 {code:"SLA-02",title:"Network Forensics, SIEM & Detection Engineering",desc:"Wireshark packet analysis, SIEM log normalization, and threat hunting.",scope:"Network traffic capture, Splunk/Chronicle SIEM integration, Sigma rules, MITRE ATT&CK.",deliv:"SIEM Detection Rules, MITRE ATT&CK Threat Map, Threat Hunting Report."},
 {code:"SLA-06",title:"Incident Response & Threat Intelligence",desc:"Cyber incident triage, malware response, and threat intelligence enrichment.",scope:"Incident containment, IOC investigation, recovery procedures, evidence preservation.",deliv:"Incident Response Playbooks, Incident Handler Journal, Threat Mitigation Guide."},
 {code:"SLA-11",title:"Digital Forensics & Post-Incident Reconstruction",desc:"Disk and memory forensics, timeline analysis, and root-cause cyber investigations.",scope:"Malware artifact analysis, log/event reconstruction, attack-path reconstruction.",deliv:"Forensic Timeline, Digital Evidence Analysis, Attack Reconstruction Report."},
@@ -203,34 +209,33 @@ const serviceDatabase=[
 const grid=document.getElementById('dynamic-services-grid');
 let html='';
 serviceDatabase.forEach(section=>{
+// 💎 Sourced dynamically from your new asset links
+const pillarImg=`https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/pillar-icon-${section.iconNum}.png`;
+
 html+=`<div class="reveal mb-16" id="${section.id}">
 <div class="flex items-center gap-4 mb-8 border-b border-white/5 pb-4">
-<img src="${section.img}" alt="${section.domain}" class="w-12 h-12 object-contain" onerror="this.src='https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/logo-flat.png'">
+<img src="${pillarImg}" alt="${section.domain}" class="w-12 h-12 object-contain bg-slate-900 rounded-lg p-1 border border-${section.color}-500/30">
 <h3 class="text-xl md:text-2xl font-black uppercase italic text-${section.color}-400 border-l-4 border-${section.color}-400 pl-4">${section.domain}</h3>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">`;
 section.items.forEach(item=>{
 const googleQuery=encodeURIComponent(`${item.title} cybersecurity architecture documentation and standard practices`);
-html+=`<div class="service-card flex flex-col justify-between border-${section.color}-500/20 hover:border-${section.color}-500/50 hover:bg-${section.color}-500/10 transition-all duration-300" aria-label="${item.title}">
-<div class="space-y-4">
-<div class="flex justify-between items-start">
-<div><span class="text-[8px] font-bold text-slate-500">${item.code}</span><h5 class="text-white font-bold text-md leading-tight">${item.title}</h5></div>
-<a href="mailto:ibrahim.secops.pro@gmail.com?subject=Service Inquiry: ${item.code} ${item.title}" class="text-${section.color}-400 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-${section.color}-500 rounded" aria-label="Email inquiry for ${item.title}"><i data-lucide="mail" class="w-4 h-4"></i></a>
+html+=`<div class="bg-white/5 border border-${section.color}-500/20 rounded-2xl p-6 hover:border-${section.color}-500/50 hover:bg-${section.color}-500/10 transition-all duration-300">
+<div class="flex justify-between items-start mb-4">
+<div><span class="text-[9px] font-bold text-slate-500">${item.code}</span><h5 class="text-white font-bold text-base leading-tight">${item.title}</h5></div>
 </div>
-<p class="text-xs text-slate-400">${item.desc}</p>
-<div class="p-3 bg-white/5 border border-${section.color}-500/20 rounded-xl font-mono text-[8px] space-y-1.5 text-left">
-<p class="text-white font-bold uppercase tracking-wider border-b border-white/10 pb-1 mb-1">Scope & Deliverables</p>
+<p class="text-xs text-slate-400 mb-6">${item.desc}</p>
+<div class="p-4 bg-black/40 border border-${section.color}-500/10 rounded-xl font-mono text-[9px] space-y-2 text-left mb-6">
+<p class="text-white font-bold uppercase tracking-wider border-b border-white/10 pb-1">Scope & Deliverables</p>
 <p><b>Scope:</b> <span class="text-slate-300">${item.scope}</span></p>
 <p><b>Deliverables:</b> <span class="text-${section.color}-400 font-semibold">${item.deliv}</span></p>
 </div>
-</div>
-<div class="flex flex-col sm:flex-row gap-3 mt-5">
-<button onclick="window.open('https://www.google.com/search?q=${googleQuery}', '_blank')" class="bg-white hover:bg-${section.color}-400 hover:text-white text-black px-4 py-2 rounded-xl text-[9px] font-black uppercase flex items-center justify-center gap-1.5 transition-all duration-300 shadow-md w-full sm:w-auto focus:outline-none focus:ring-2 focus:ring-${section.color}-500" aria-label="Research ${item.title} on Google">
-<img src="https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/google-icon.png" alt="G" class="w-3.5 h-3.5 object-contain">
-Research Concept
+<div class="flex flex-col sm:flex-row gap-3">
+<button onclick="window.open('https://www.google.com/search?q=${googleQuery}', '_blank')" class="bg-white hover:bg-${section.color}-400 hover:text-white text-black px-4 py-2.5 rounded-xl text-[9px] font-black uppercase flex items-center justify-center gap-2 transition-all duration-300 w-full sm:w-auto focus:outline-none focus:ring-2 focus:ring-${section.color}-500" aria-label="Research ${item.title} on Google">
+<i data-lucide="search" class="w-3.5 h-3.5"></i> Research Concept
 </button>
-<a href="mailto:ibrahim.secops.pro@gmail.com?subject=Technical Inquiry: ${item.code} ${item.title}" class="border border-${section.color}-500/20 text-white hover:border-${section.color}-400 hover:text-${section.color}-400 px-4 py-2 rounded-xl text-[9px] font-black uppercase flex items-center justify-center gap-1.5 transition-all duration-300 w-full focus:outline-none focus:ring-2 focus:ring-${section.color}-500" aria-label="Contact for ${item.title}">
-<i data-lucide="send" class="w-3.5 h-3.5"></i> Contact
+<a href="mailto:ibrahim.secops.pro@gmail.com?subject=Inquiry: ${item.code} ${item.title}" class="border border-${section.color}-500/30 text-white hover:border-${section.color}-400 hover:text-${section.color}-400 px-4 py-2.5 rounded-xl text-[9px] font-black uppercase flex items-center justify-center gap-2 transition-all duration-300 w-full sm:w-auto focus:outline-none focus:ring-2 focus:ring-${section.color}-500" aria-label="Contact for ${item.title}">
+<i data-lucide="send" class="w-3.5 h-3.5"></i> Contact Architect
 </a>
 </div>
 </div>`;
@@ -239,6 +244,7 @@ html+=`</div></div>`;
 });
 grid.innerHTML=html;
 
+// Mobile Menu Toggle
 const menuBtn = document.getElementById('menu-btn');
 const mobileMenu = document.getElementById('mobile-menu');
 menuBtn.addEventListener('click', () => {
@@ -263,39 +269,6 @@ if(elementTop<windowHeight-100){reveals[i].classList.add("active");}
 window.addEventListener("scroll",reveal);
 reveal();
 lucide.createIcons();
-
-if('serviceWorker' in navigator){window.addEventListener('load',()=>{navigator.serviceWorker.register('./sw.js').catch(err=>console.log('Sync Failed'));});}
-
-/* 🛡️ SUPREME HARDENING & DEFENSE MATRIX BY MD IBRAHIM HOSSAIN */
-const allowedDomains = ["ibrahim-secops.github.io", "localhost", "127.0.0.1"];
-if(!allowedDomains.includes(window.location.hostname)){
-document.body.innerHTML="<div style='color:#00F2FF;text-align:center;padding-top:100px;font-family:sans-serif;background-color:#020617;min-height:100vh;'><h1 style='font-size:48px;font-weight:900;'>SYSTEM LOCKED</h1><p>Domain Unauthorized for Ibrahim SecOps. Redirecting to official repository...</p></div>";
-setTimeout(()=>{window.location.href="https://ibrahim-secops.github.io/";},3000);
-}
-document.addEventListener("contextmenu",e=>e.preventDefault());
-document.addEventListener("dragstart",e=>e.preventDefault());
-document.addEventListener("selectstart",e=>e.preventDefault());
-window.addEventListener("blur",()=>{document.body.style.filter="blur(20px)";});
-window.addEventListener("focus",()=>{document.body.style.filter="none";});
-document.onkeydown=function(e){
-if(e.keyCode==123||
-(e.ctrlKey&&e.shiftKey&&(e.keyCode==73||e.keyCode==74||e.keyCode==67))||
-(e.ctrlKey&&e.keyCode==85)||
-(e.ctrlKey&&e.keyCode==83)||
-(e.ctrlKey&&e.keyCode==80)||
-(e.ctrlKey&&e.keyCode==115)){
-return false;
-}
-};
-let threshold=160;
-setInterval(()=>{
-if((window.outerWidth-window.innerWidth>threshold)||(window.outerHeight-window.innerHeight>threshold)){
-window.location.href="about:blank";
-}
-},500);
-function poisonConsole(){console.clear();console.log("%c[PIXEL PERFECT SECURITY SYSTEM ACTIVE]", "color:#00F2FF; font-size:20px; font-weight:bold;");console.log("Status: Hardened & Encrypted.");}
-setInterval(poisonConsole, 10);
-setInterval(function(){debugger;}, 5);
 </script>
 </body>
 </html>
