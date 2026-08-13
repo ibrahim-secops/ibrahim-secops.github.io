@@ -1,0 +1,18 @@
+{
+  "name": "Ibrahim Hossain | Cybersecurity Portfolio",
+  "short_name": "IbrahimSecOps",
+  "description": "Enterprise Cybersecurity & Security Engineering Portfolio.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#00F2FF",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/logo-flat.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
