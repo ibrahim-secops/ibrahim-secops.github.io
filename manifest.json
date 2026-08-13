@@ -9,7 +9,7 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/logo-flat.png",
+      "src": "https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/logo-main.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
