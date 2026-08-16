@@ -1,18 +1,70 @@
 {
-  "name": "Ibrahim Hossain | Cybersecurity Portfolio",
+  "name": "MD Ibrahim Hossain | Principal Cybersecurity & DLP Architect",
   "short_name": "IbrahimSecOps",
-  "description": "Enterprise Cybersecurity & Security Engineering Portfolio.",
+  "description": "Official Enterprise Cybersecurity & Data Loss Prevention (DLP) Systems Engineering Portfolio of MD Ibrahim Hossain.",
+  "id": "./?source=pwa",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#020617",
   "theme_color": "#00F2FF",
-  "orientation": "portrait",
+  "orientation": "any",
+  "categories": [
+    "security",
+    "business",
+    "utilities",
+    "productivity"
+  ],
   "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/logo-main.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
     {
       "src": "https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/logo-main.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "20-SLA Matrix",
+      "short_name": "SLAs",
+      "description": "Explore the 20-SLA Enterprise Cybersecurity Architecture Matrix",
+      "url": "./index.html#services",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/logo-main.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "ATS Resume",
+      "short_name": "Resume",
+      "description": "View ATS-Optimized Cybersecurity Resume",
+      "url": "./cv/ats-resume.html",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/logo-main.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contact Architect",
+      "short_name": "Contact",
+      "description": "Direct Technical Consultation Inquiry",
+      "url": "mailto:ibrahim.secops.pro@gmail.com",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/ibrahim-secops/secops-assets/main/logo-main.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }
