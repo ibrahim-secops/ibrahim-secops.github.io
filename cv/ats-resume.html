@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MD Ibrahim Hossain | Cybersecurity ATS Resume</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f172a;
+    background: #f8fafc;
+    margin: 0;
+    padding: 20px;
+    font-size: 8.8pt;
+    line-height: 1.35;
+  }
+  .cv-page {
+    max-width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 12mm 14mm;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  }
+  header {
+    text-align: center;
+    border-bottom: 1.5px solid #0f172a;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 18pt;
+    margin: 0 0 2px 0;
+    color: #0f172a;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+  }
+  .title {
+    font-size: 10.5pt;
+    font-weight: bold;
+    color: #334155;
+    margin: 0 0 4px 0;
+  }
+  .contact {
+    font-size: 8.5pt;
+    color: #475569;
+  }
+  .contact a {
+    color: #0284c7;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 10pt;
+    color: #0f172a;
+    border-bottom: 1px solid #cbd5e1;
+    padding-bottom: 2px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  p { margin: 0 0 5px 0; text-align: justify; }
+  ul { margin: 0 0 6px 0; padding-left: 16px; }
+  li { margin-bottom: 2.5px; }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #0f172a;
+    font-size: 9pt;
+  }
+  .job-sub {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    color: #475569;
+    font-size: 8.5pt;
+    margin-bottom: 3px;
+  }
+  @page {
+    size: A4 portrait;
+    margin: 8mm;
+  }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .cv-page { padding: 0; box-shadow: none; max-width: 100%; min-height: auto; }
+    .no-print { display: none !important; }
+    a { color: #000 !important; text-decoration: underline; }
+  }
+  .btn-print {
+    display: block;
+    width: max-content;
+    margin: 0 auto 15px;
+    padding: 8px 18px;
+    background: #0f172a;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 9pt;
+    border: none;
+  }
+</style>
+</head>
+<body>
+
+<button onclick="window.print()" class="btn-print no-print">🖨️ Save as PDF (Exact 1-Page A4)</button>
+
+<div class="cv-page">
+  <!-- HEADER -->
+  <header>
+    <h1>MD Ibrahim Hossain</h1>
+    <div class="title">Principal Cybersecurity Architect & DLP Systems Engineer</div>
+    <div class="contact">
+      Relocation: <strong>Ready for Estonia / EU</strong> | Phone: <strong>+8801715354960</strong> | Email: <a href="mailto:ibrahim.secops.pro@gmail.com">ibrahim.secops.pro@gmail.com</a><br>
+      Portfolio: <a href="https://ibrahim-secops.github.io/" target="_blank">https://ibrahim-secops.github.io/</a> | GitHub: <a href="https://github.com/ibrahim-secops" target="_blank">github.com/ibrahim-secops</a>
+    </div>
+  </header>
+
+  <!-- SUMMARY -->
+  <h2>Professional Summary</h2>
+  <p>Analytical and self-driven Cybersecurity Architect specializing in Data Loss Prevention (DLP), Zero-Trust network segmentation, and automated DevSecOps CI/CD pipelines. Architect of a 20-SLA enterprise defense matrix aligned with NIST CSF 2.0, ISO/IEC 27001, and GDPR mandates. Creator of CYBER-SHIELD, a proprietary Python utility for automated SAST and container vulnerability gating. Proven expertise in Linux CLI hardening, network traffic forensics, and Microsoft Purview DLP policy design.</p>
+
+  <!-- CORE TECHNICAL COMPETENCIES -->
+  <h2>Core Technical Competencies</h2>
+  <div class="grid-2">
+    <div>
+      <strong>Data Loss Prevention & IAM:</strong> Microsoft Purview, Sensitive Info Types (SIT), Sensitivity Labels, Endpoint DLP, Zero-Trust IAM, RBAC/PAM.<br>
+      <strong>DevSecOps & Code Security:</strong> SAST, DAST, SBOM Auditing, Dependency Risk Scanning, GitHub Actions CI/CD Gating, Python Automation.
+    </div>
+    <div>
+      <strong>SecOps, SIEM & Forensics:</strong> Splunk, Chronicle, Wireshark Packet Filtering, tcpdump, Suricata IDS/IPS, Threat Hunting, Incident Triage.<br>
+      <strong>Governance, Risk & Compliance:</strong> NIST CSF 2.0, ISO 27001 ISMS, GDPR, NIS2, PCI DSS Auditing, Attack Surface Management.
+    </div>
+  </div>
+
+  <!-- EXPERIENCE & RESEARCH -->
+  <h2>Technical Experience & Applied Research</h2>
+  <div>
+    <div class="job-header">
+      <span>Principal Cybersecurity Researcher & DevSecOps Developer</span>
+      <span>Oct 2023 – Present</span>
+    </div>
+    <div class="job-sub">
+      <span>Independent Cyber Operations & Tool Development</span>
+      <span>Remote / Global Scope</span>
+    </div>
+    <ul>
+      <li><strong>Proprietary Tool Development (CYBER-SHIELD):</strong> Built a lightweight Python/Bash automation engine integrating Static Application Security Testing (SAST) and SBOM dependency audits into GitHub Actions pipelines to block vulnerabilities pre-release.</li>
+      <li><strong>20-SLA Enterprise Defense Matrix:</strong> Architected structured execution playbooks across 5 pillars (GRC, DLP/Identity, DevSecOps, Cloud/AI, SOC) delivering quantifiable risk reduction (Risk = Likelihood × Impact).</li>
+      <li><strong>DLP Architecture & Data Governance:</strong> Designed automated data classification schemas and endpoint exfiltration prevention rules modeling enterprise Microsoft Purview policies for high-assurance PII protection.</li>
+      <li><strong>Network Forensics & Threat Hunting:</strong> Conducted packet-level traffic investigations using Wireshark and tcpdump; formulated Suricata IDS rules and SIEM correlation queries to detect and mitigate brute-force and DDoS vectors.</li>
+    </ul>
+  </div>
+
+  <!-- PROJECTS & EVIDENCE -->
+  <h2>Selected Security Projects & Case Studies</h2>
+  <ul>
+    <li><strong>NIST CSF & ISO 27001 Compliance Audit:</strong> Developed an end-to-end enterprise risk register and control validation matrix mapping asset vulnerabilities to prioritized remediation roadmaps.</li>
+    <li><strong>Automated Linux Access Control (Python):</strong> Scripted automated authentication log parsers in Python that dynamically identify anomalous login patterns and blacklist malicious IPs in real-time.</li>
+    <li><strong>Database Security & SQL Forensics:</strong> Structured advanced SQL audit queries to detect unauthorized data extraction patterns and validate column-level encryption integrity.</li>
+  </ul>
+
+  <!-- EDUCATION & CONTINUOUS LEARNING -->
+  <h2>Professional Training & Credentials Path</h2>
+  <ul>
+    <li><strong>Microsoft SC-400 (Information Protection & Compliance):</strong> Practical specialization in Microsoft Purview DLP and Sensitivity Labels.</li>
+    <li><strong>ISC² CISSP & CCSP Common Body of Knowledge:</strong> Comprehensive self-study in Enterprise Security Architecture and Multi-Cloud Defense.</li>
+    <li><strong>Google Cybersecurity Professional Training:</strong> Rigorous hands-on foundations in Linux CLI, Python Scripting, SQL, and Splunk SIEM.</li>
+  </ul>
+</div>
+
+</body>
+</html>
